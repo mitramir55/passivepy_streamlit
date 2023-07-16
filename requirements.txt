@@ -1,4 +1,4 @@
-spacy==3.4.1
+spacy==3.6.0
 spacy-legacy==3.0.10
 termcolor==1.1.0
 PassivePy==0.2.21
