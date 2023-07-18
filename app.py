@@ -52,7 +52,7 @@ st.write("Our aim with this work is to create a reliable (e.g., passive voice ju
 link = 'Please visit our [GitHub](https://github.com/mitramir55/PassivePy) if you want to see the code or make any contributions.'
 st.markdown(link, unsafe_allow_html=True)
 
-link = 'If you use this package, please cite it as: [Sepehri, Amir, David M. Markowitz, and Mitra Mir. 2022. “Passivepy: A Tool to Automatically Identify Passive Voice in Big Text Data.” PsyArXiv. February 3. doi:10.31234/osf.io/bwp3t.](https://psyarxiv.com/bwp3t/)'
+link = 'If you use this package, please cite it as: [ Sepehri, A., Mirshafiee, M. S., & Markowitz, D. M. (2022). PassivePy: A tool to automatically identify passive voice in big text data. Journal of Consumer Psychology.](https://psyarxiv.com/bwp3t/)'
 st.markdown(link, unsafe_allow_html=True)
 
 
