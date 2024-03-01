@@ -64,7 +64,7 @@ st.caption("Disclaimer: This website is provided solely for the purpose of testi
 # single text
 st.subheader("Single sentence analysis")
 
-single_sent = st.text_input("Please enter your sentence in the box bellow:", "")
+single_sent = st.text_input("Please enter your sentence in the box below:", "")
 button_1 = st.button('analyze', key='butt1')
 
 if single_sent and button_1:
