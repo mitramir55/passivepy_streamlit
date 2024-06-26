@@ -4,5 +4,5 @@ termcolor==1.1.0
 PassivePy==0.2.21
 regex==2022.9.13
 openpyxl
-numpy==1.26.4 spacy
+numpy==1.26.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.0/en_core_web_sm-3.4.0.tar.gz#egg=en_core_web_sm
