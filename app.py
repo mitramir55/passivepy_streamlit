@@ -95,6 +95,13 @@ if uploaded_file is not None and button_2:
         format = find_extention(uploaded_file_name)
         if format == 'csv': df = pd.read_csv(uploaded_file)
         if format == 'xlsx': df = pd.read_excel(uploaded_file)
+
+        # adding the column check for duplicates
+        columns_in_df = df.columns
+        if 'all_passives' in columns_in_df or 'binary' in columns_in_df:
+            st.error("""Please make sure your dataset does not have 
+                     columns named 'binary' or 'all_passives'. This
+                     interferes with the format of the output dataset. """, icon="🚨")
         
         # analyze and show the results
         df_output = analyze_dataset(df, mode, col_name)
